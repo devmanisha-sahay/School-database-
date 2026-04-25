@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Database Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🏫 School Database Management System</h2>
+
+        <!-- Add Student Form -->
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="number" id="roll" placeholder="Roll Number" required>
+            <input type="text" id="className" placeholder="Class" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <!-- Student Table -->
+        <h3>Student Records</h3>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Records will appear here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
